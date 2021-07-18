@@ -1,5 +1,8 @@
 # Django Practice
 
+Django 官方教程走一波
+当前进度：https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+
 ## Init
 
 ## Windows
