@@ -20,3 +20,9 @@ Django 官方教程走一波
 ```cmd
 python manage.py runserver 0.0.0.0:8000
 ```
+
+## 修改 Model 的步骤
+
+- Change your models (in `models.py`).
+- Run [`python manage.py makemigrations`](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-makemigrations) to create migrations for those changes
+- Run [`python manage.py migrate`](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-migrate) to apply those changes to the database.
