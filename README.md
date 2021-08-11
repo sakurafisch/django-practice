@@ -26,3 +26,7 @@ python manage.py runserver 0.0.0.0:8000
 - Change your models (in `models.py`).
 - Run [`python manage.py makemigrations`](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-makemigrations) to create migrations for those changes
 - Run [`python manage.py migrate`](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-migrate) to apply those changes to the database.
+
+## 部署
+
+[使用 Gunicorn 托管 Django](https://docs.djangoproject.com/zh-hans/3.2/howto/deployment/wsgi/gunicorn/#how-to-use-django-with-gunicorn)
